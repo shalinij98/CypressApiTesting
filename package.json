@@ -1,0 +1,26 @@
+{
+  "name": "cypress-api-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run": "./node_modules/.bin/cypress run --spec **/*.spec.js cypress run --record --key a17bce9f-6b09-4476-943e-4281a80605b2",
+    "cypresstest:homolog": "./node_modules/.bin/cypress run --spec **/*.spec.js --config baseUrl=http://localhost:3000",
+    "cypresstest:prod": "./node_modules/.bin/cypress run --spec **/*.spec.js --config baseUrl=https://serverest.dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.3.6",
+    "cypress": "^6.6.0"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.13.8",
+    "faker": "^5.4.0",
+    "markdownlint-cli": "^0.26.0",
+    "node": "^15.12.0",
+    "yarn": "^1.22.10"
+  }
+}
