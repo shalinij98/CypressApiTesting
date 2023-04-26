@@ -7,7 +7,11 @@
     "cypress:open": "./node_modules/.bin/cypress open",
     "cypress:run": "./node_modules/.bin/cypress run --spec **/*.spec.js cypress run --record --key a17bce9f-6b09-4476-943e-4281a80605b2",
     "cypresstest:homolog": "./node_modules/.bin/cypress run --spec **/*.spec.js --config baseUrl=http://localhost:3000",
-    "cypresstest:prod": "./node_modules/.bin/cypress run --spec **/*.spec.js --config baseUrl=https://serverest.dev"
+    "cypresstest:prod": "./node_modules/.bin/cypress run --spec **/*.spec.js --config baseUrl=https://serverest.dev",
+    "test": "cypress run",
+    "test:chrome": "cypress run --browser chrome",
+    "report:merge": "mochawesome-merge cypress/results/json/*.json > index.json",
+    "report:generate": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
   },
   "keywords": [],
   "author": "",
@@ -17,10 +21,16 @@
     "cypress": "^6.6.0"
   },
   "dependencies": {
+    "cypress": "^4.8.0",
     "allure-commandline": "^2.13.8",
     "faker": "^5.4.0",
     "markdownlint-cli": "^0.26.0",
     "node": "^15.12.0",
-    "yarn": "^1.22.10"
+    "yarn": "^1.22.10",
+     "cypress-multi-reporters": "^1.4.0",
+    "mocha": "^8.0.1",
+    "mochawesome": "^6.1.1",
+    "mochawesome-merge": "^4.1.0",
+    "mochawesome-report-generator": "^5.1.0"
   }
 }
