@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f73ae4b-0377-44c7-b3c3-93eb9d83921b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/cypress.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/fixtures/example.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/example.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/Login/payloads/login_user.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/Login/payloads/login_user.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/Login/requests/POST.login.request.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/Login/requests/POST.login.request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/Login/tests/POST.login.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/Login/tests/POST.login.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/Users/tests/GET.user.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/Users/tests/GET.user.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/Users/tests/POST.user.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/Users/tests/POST.user.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/Users/tests/PUT.user.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/Users/tests/PUT.user.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/plugins/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/plugins/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="6f73ae4b-0377-44c7-b3c3-93eb9d83921b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +27,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/shalinijeyakumar/Documents/cypress-api-testing",
+    "last_opened_file_path": "/Users/shalinijeyakumar/Documents/cy/cypress-api-testing",
     "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>

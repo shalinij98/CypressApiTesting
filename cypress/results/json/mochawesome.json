@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-04-27T15:50:26.661Z",
+    "end": "2023-04-27T15:50:27.279Z",
+    "duration": 618,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3e9db441-c78a-4e5f-a62a-71a884f3b395",
+      "title": "",
+      "fullFile": "cypress/integration/Login/tests/POST.login.spec.js",
+      "file": "cypress/integration/Login/tests/POST.login.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "03e93b34-1050-42e9-988a-268129e3d961",
+          "title": "POST /login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Should log in an account",
+              "fullTitle": "POST /login Should log in an account",
+              "timedOut": null,
+              "duration": 588,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "POSTlogin.login().then(function (response) {//     / token = response.body.authorization\n}).as('response');\ncy.get('@response').then(function (response) {\n  expect(response.status).to.be.equal(200);\n  cy.log(token);\n});",
+              "err": {},
+              "uuid": "1d6c302a-ef5b-4188-a996-37303f9a7857",
+              "parentUUID": "03e93b34-1050-42e9-988a-268129e3d961",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1d6c302a-ef5b-4188-a996-37303f9a7857"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 588,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/json",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

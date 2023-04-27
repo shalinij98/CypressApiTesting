@@ -1,0 +1,144 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-04-27T15:50:37.099Z",
+    "end": "2023-04-27T15:50:39.696Z",
+    "duration": 2597,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "2acc6bff-68e3-4e5a-bc41-62d9e2f102a0",
+      "title": "",
+      "fullFile": "cypress/integration/Users/tests/PUT.user.spec.js",
+      "file": "cypress/integration/Users/tests/PUT.user.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "99f9e5eb-84a3-4b56-859a-d181f3280a98",
+          "title": "PUT Usuarios",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Update  user",
+              "fullTitle": "PUT Usuarios Update  user",
+              "timedOut": null,
+              "duration": 887,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "PUTprodutos.putUser(id, name, job).should(function (updateUser) {\n  expect(updateUser.status).to.eq(200);\n});",
+              "err": {},
+              "uuid": "fa782a41-a27a-494a-9e64-b57765244861",
+              "parentUUID": "99f9e5eb-84a3-4b56-859a-d181f3280a98",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Patch  user",
+              "fullTitle": "PUT Usuarios Patch  user",
+              "timedOut": null,
+              "duration": 851,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "PATCHprodutos.patchUser(id, name, job).should(function (patchUser) {\n  expect(patchUser.status).to.eq(200);\n});",
+              "err": {},
+              "uuid": "6e0a2c06-b751-43e6-a016-73b9a9b5764c",
+              "parentUUID": "99f9e5eb-84a3-4b56-859a-d181f3280a98",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Delete  user",
+              "fullTitle": "PUT Usuarios Delete  user",
+              "timedOut": null,
+              "duration": 834,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "DELETEprodutos.deleteUser(id).should(function (deletUser) {\n  expect(deletUser.status).to.eq(204);\n});",
+              "err": {},
+              "uuid": "05b7fa2e-f14c-465a-ad36-1f88ff36884f",
+              "parentUUID": "99f9e5eb-84a3-4b56-859a-d181f3280a98",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fa782a41-a27a-494a-9e64-b57765244861",
+            "6e0a2c06-b751-43e6-a016-73b9a9b5764c",
+            "05b7fa2e-f14c-465a-ad36-1f88ff36884f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2572,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/json",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
